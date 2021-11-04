@@ -3,7 +3,7 @@ function salida = animacion(u)
 % Entrada
 teta = u(1);
 
-% Parametros
+% ParametrosMATLAB Drive
 L = 1;
 
 % Coordenadas de posicion
