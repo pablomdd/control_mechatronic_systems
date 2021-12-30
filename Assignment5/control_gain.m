@@ -51,6 +51,7 @@ else
     return;
 end
 % Polos propuestos para el observador
-% Jo = [-0.010, -0.010, -.1, -.1];
-Jo = [-1+j*sqrt(3), -1-j*sqrt(3), -5, -5]*4;
+Jo = [-3, -3, -15, -15];
 Ke = acker(A', C', Jo)
+% >>    1.0e+04 *
+% >>   -0.4815   -2.2382    0.0036    0.0435
